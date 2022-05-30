@@ -11,6 +11,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .hero-container{
     display: flex;
@@ -117,10 +118,18 @@ body{
 .hero-card3 p{
     color: hsl(0, 0%, 100%);
 }
-
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    color: black; 
+    padding-top: 20px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
 @media screen and (max-width : 768px){
 body{
     background-size: contain;
+    padding-top: 30px;
 }
 .hero-container{
     padding: 10px;
@@ -180,6 +189,9 @@ body{
     margin-left: 0;
 }
 .rate-text{margin-left: 0;
+}
+.attribution{
+    padding-top: 50px;
 }
 
 
